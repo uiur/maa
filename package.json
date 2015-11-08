@@ -1,0 +1,19 @@
+{
+  "name": "maa",
+  "version": "1.0.0",
+  "description": "markdown editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uiureo/maa.git"
+  },
+  "author": "Kazato Sugimoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uiureo/maa/issues"
+  },
+  "homepage": "https://github.com/uiureo/maa#readme"
+}
