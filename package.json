@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "standard",
-    "example-build": "browserify example/src/app.js -o example/dist/bundle.js -t [ babelify ]"
+    "example-build": "browserify example/src/app.js -o example/dist/bundle.js -t [ babelify ]",
+    "example-watch": "watchify example/src/app.js -o example/dist/bundle.js -t [ babelify ]"
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,14 @@
     "babel-preset-react": "^6.1.2",
     "babelify": "^7.2.0",
     "browserify": "^12.0.1",
-    "standard": "^5.3.1"
+    "standard": "^5.3.1",
+    "watchify": "^3.6.0"
   },
   "dependencies": {
+    "jquery": "^2.1.4",
+    "markdown-it": "^5.0.1",
     "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+    "react-dom": "^0.14.2",
+    "with-modifier-key": "^1.0.0"
   }
 }
